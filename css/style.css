@@ -1,0 +1,52 @@
+body {
+    background: #112B3C;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif;
+    height: 100%;
+}
+
+.wrapper {
+    /*border: solid 1px white;*/
+    width: 800px;
+    margin: 30px auto;
+    color: #EFEFEF;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 36px;
+    color: #F66B0E;
+}
+
+#segundos,
+#dezenas {
+    font-size: 48px;
+    color: #EFEFEF;
+}
+
+button {
+    border-radius: 5px;
+    background: #F66B0E;
+    color: #EFEFEF;
+    border: solid 0px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    outline: none;
+}
+
+button:hover {
+    background: #EFEFEF;
+    border: solid 0px;
+    color: #112B3C;
+}
